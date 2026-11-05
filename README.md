@@ -1,34 +1,36 @@
-# 🚲🍄 Lab 2: Bicycle Rental & Mushroom Identifier
+# Lab 2: Bicycle Rental & Mushroom Identifier
 
 A complete C# Windows Forms application built from scratch for Lab 2. This project demonstrates multi-form navigation, user input validation, error handling, and logic-based decision trees.
 
-## 📸 Screenshots
+**Course Lecturer:** Adonia Ndagijimana
+**Student ID:** 26511
+
+## Screenshots
 
 Here are the screenshots of the working application:
 
 ### 1. Login Screen
 *(Validates empty inputs before allowing access)*
-
-
+<img width="903" height="488" alt="image (2)" src="https://github.com/user-attachments/assets/8d652b6b-9dcf-44e1-9dd4-5e991c58377c" />
 
 ### 2. Main Menu
 *(Navigation hub to access the two lab activities)*
-![Main Menu](menu.png)
+<img width="802" height="484" alt="image (3)" src="https://github.com/user-attachments/assets/aa69d3c1-0b7c-4d76-8cf7-c06df9521a58" />
 
 ### 3. Bicycle Rental System
 *(Calculates the hourly rate based on the time of day)*
-![Bicycle Form](bicycle.png)
+<img width="803" height="485" alt="image (4)" src="https://github.com/user-attachments/assets/a980466b-24ab-4737-a3f3-b896dccbac3b" />
 
 ### 4. Mushroom Identifier
 *(Uses a decision tree to identify the mushroom based on Yes/No questions)*
-![Mushroom Form](mushroom.png)
+<img width="803" height="487" alt="image" src="https://github.com/user-attachments/assets/bbce8fac-ca7b-4863-bb3f-bf6a12c8fc41" />
 
 ---
 
-## ✨ Features
+## Features
 
 * **Login Validation:** Prevents users from entering empty usernames or passwords.
-* **Form Navigation:** Smooth transitions between Login -> Menu -> Bicycle/Mushroom using `this.Hide()` and `new Form().Show()`.
+* **Form Navigation:** Smooth transitions between Login, Menu, Bicycle, and Mushroom forms using `this.Hide()` and `new Form().Show()`.
 * **Bicycle Rental Logic:**
   * Hour-by-hour `while` loop calculation to handle cross-over rates.
   * Error handling using `int.TryParse` to prevent crashes if the user types letters instead of numbers.
@@ -41,12 +43,12 @@ Here are the screenshots of the working application:
 
 ---
 
-## 🛠️ Built With
+## Built With
 * **Language:** C#
 * **Framework:** .NET 10.0 (Windows Forms)
 * **IDE:** Visual Studio
 
-## 🚀 How to Run This Project
+## How to Run This Project
 1. Clone this repository to your local machine.
 2. Open the `Lab2Project.slnx` file in Visual Studio.
 3. Press `F5` or click the green **Start** button to run the application.
