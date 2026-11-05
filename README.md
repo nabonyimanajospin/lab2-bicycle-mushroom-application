@@ -3,6 +3,7 @@
 A complete C# Windows Forms application built from scratch for Lab 2. This project demonstrates multi-form navigation, user input validation, error handling, and logic-based decision trees.
 
 **Course Lecturer:** Adonia Ndagijimana
+
 **Student ID:** 26511
 
 ## Screenshots
