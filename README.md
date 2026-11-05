@@ -8,7 +8,8 @@ Here are the screenshots of the working application:
 
 ### 1. Login Screen
 *(Validates empty inputs before allowing access)*
-![Login Screen](login.png)
+
+
 
 ### 2. Main Menu
 *(Navigation hub to access the two lab activities)*
